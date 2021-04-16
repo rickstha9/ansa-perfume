@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol{
+    padding: 0;
+    margin: 0;
+    
+}
+a{
+    color: white!important;
+}
+
+body{
+    background-image: url(https://ansa-perfume.com.au/wp-content/uploads/2020/12/golden-4.jpg);
+    background-color: #dbb40a;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Lato; 
+    
+    font-size: 14px;
+
+    
+}
+
+/*-------------------- header start---------------------- */
+
+header{
+ 
+    
+}
+
+.navbar-icons{
+    display: inline;
+}
+
+.slider-logo{
+    display: none!important;
+}
+.nav-main{
+    display: none!important;
+}
+.search-drop .btn{
+    background-color: white;
+    
+    border: none!important;
+   
+    border-radius: 0!important;
+}
+.search-drop .btn:hover{
+    background-color: white;
+    color: #495057;;
+}
+.search-drop a{
+    color: black!important;
+}
+.header-search{
+    width: 320px!important;
+    border-radius: 0!important;
+
+}
+.search-btn{
+    border-radius: 0!important;
+    background: #ffb200!important;
+    border: none!important;
+}
+.overlay{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+
+}
+.open{
+    display: block;
+}
+
+.navbar-main {
+    /* margin-top: 100px; */
+    background-color: #ffb200;
+    text-transform: uppercase;
+    font-family: Lato; 
+    
+    font-size: 14px;
+}
+.navbar-main li a{
+    color: black!important;
+}
+.navbar-main li:hover {
+    background-color: #0a0a0a;
+    color: #ffb200!important;
+}
+.navbar-main li a:hover {
+ 
+    color: #ffb200!important;
+}
+
+.navbar-main .active{
+    background-color: #0a0a0a;
+    
+}
+.navbar-main .active a{
+   
+    color: #ffb200!important;
+}
+
+
+
+
+/*------- header end ----------------*/
+
+/*------- banner srart ----------------*/
+
+.banner{
+   
+    margin-top: 180px;
+    
+    
+    overflow: hidden;
+   
+}
+.banner .owl-dots{
+    position: relative;
+    bottom: 70px;;
+}
+/* 
+.owl-dots{
+    display: block!important;
+} */
+/*------- banner end ----------------*/
+
+/*------- card start ----------------*/
+.cards{
+    background-color: none!important;
+    border: none!important;
+}
+.card-body{
+    background-color: rgba(96,96,96,0.71) !important;
+}
+.col-black{
+   
+}
+/*------- card end ----------------*/
+
+/*------- trending start ----------------*/
+.trending-items h2{
+    font-size: 36px;
+    color: #dbb40a;
+    text-align: center;
+    font-family:Lato;
+    font-weight:900;
+}
+
+.trending-items p{
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+    color: #dd9933;
+}
+
+#two .owl-dots{
+    position: relative;
+    bottom: 70px;;
+}
+
+#two .card-body{
+    background: none!important;
+}
+#two .card{
+    background-color: transparent!important;
+}
+
+.counter{
+    width: 13%;
+    border: none;
+
+}
+.cart-trend{
+    background-color:white;
+    color: #dd9933;
+}
+
+.cart-trend i{
+    
+    color: #dd9933;
+}
+
+
+.onsale {
+    width: 3.75em;
+    height: 3.75em;
+    line-height: 1.2;
+    
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 3;
+    padding: 3px 8px;
+    
+    font-size: .85rem;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #000000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*------- trending end ----------------*/
