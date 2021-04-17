@@ -8,6 +8,7 @@ body,h1,h2,h3,h4,h5,h6,p,ul,li,ol{
 }
 a{
     color: white!important;
+    text-decoration: none!important;
 }
 
 body{
@@ -71,6 +72,7 @@ header{
     top: 0;
     bottom: 0;
     margin: auto;
+    z-index: 999;
     background: rgba(0, 0, 0, 0.5);
     display: none;
 
@@ -208,7 +210,7 @@ header{
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    color: #ffffff;
+    
     background-color: #000000;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -216,3 +218,25 @@ header{
 }
 
 /*------- trending end ----------------*/
+
+.comitement h2{
+    font-size: 36px;
+    color: #dbb40a;
+    text-align: center;
+    font-family:Lato;
+    font-weight:900;
+}
+
+.comitement p{
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+    color: #dd9933;
+}
+
+.comitement .card-body{
+    background: none!important;
+}
+.comitement .card{
+    background-color: transparent!important;
+}
