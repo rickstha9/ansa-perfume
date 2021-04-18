@@ -27,7 +27,11 @@ body{
 /*-------------------- header start---------------------- */
 
 header{
- 
+    background-image: url(https://ansa-perfume.com.au/wp-content/uploads/2020/12/golden-4.jpg);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     
 }
 
@@ -115,7 +119,7 @@ header{
 
 /*------- header end ----------------*/
 
-/*------- banner srart ----------------*/
+/*------- banner start ----------------*/
 
 .banner{
    
@@ -136,9 +140,27 @@ header{
 /*------- banner end ----------------*/
 
 /*------- card start ----------------*/
+.main-card .card-img{
+    overflow: hidden;
+   
+    
+}
+
+.main-card img{
+   
+    transition: ease-in-out .50s;
+    
+}
+.main-card img:hover{
+    transform: scale(1.3);
+   
+    
+}
+
 .cards{
     background-color: none!important;
     border: none!important;
+    
 }
 .card-body{
     background-color: rgba(96,96,96,0.71) !important;
@@ -240,3 +262,89 @@ header{
 .comitement .card{
     background-color: transparent!important;
 }
+
+.testimonial{
+    background: url(../image/testimonial.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 40px;
+    position: relative;
+}
+
+
+.testimonial h2{
+    font-size: 28px;
+    color: #dbb40a;
+    text-align: center;
+    font-family:Lato;
+    font-weight:900;
+    padding-top: 30px;
+}
+.texts{
+    opacity: 1;
+}
+
+
+.testimonial .card-body{
+    background: none!important;
+}
+.testimonial .card{
+    background-color: transparent!important;
+}
+.testimonial h5{
+    color: white;
+}
+.testimonial p{
+    color: #dd9933;
+}
+.testimonial .owl-prev{
+    background: white;
+}
+.testimonial .owl-prev span{
+   font-size: 50px;
+   color: #dd9933;
+   background: white;
+   padding-left:10px ;
+   padding-right:10px ;
+   
+
+}
+.testimonial .owl-next{
+    background: white;
+    position: absolute;
+    top: 40%;
+    right: 40px;
+    opacity: 0;
+    transition: all ease 0.50s;
+}
+
+.testimonial .owl-prev{
+    background: white;
+    position: absolute;
+    top: 40%;
+    left: 40px;
+    opacity: 0;
+    transition:  ease 0.50s;
+}
+
+.testimonial .owl-prev:hover{
+    border: none;
+    background-color: transparent!important;
+}
+
+.testimonial .owl-next:hover{
+    border: none;
+    background-color: transparent!important;
+}
+
+.testimonial .owl-next span{
+    font-size: 50px;
+    color: #dd9933;
+    background: white;
+    padding-left:10px ;
+    padding-right:10px ;
+ }
+
+
+ 

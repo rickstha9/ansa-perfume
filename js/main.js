@@ -14,9 +14,14 @@ $(document).ready(function(){
        $(".mobileMenu, .overlay").toggleClass("open");
    });
 
+  
+
+   
+
    // for carousel 
    var one=$('#one');
    var two=$('#two');
+   var three=$('#three');
 
 
   one.owlCarousel({
@@ -24,6 +29,14 @@ $(document).ready(function(){
     items:1,
     autoplay:true
     
+})
+
+three.owlCarousel({
+  loop:true,
+  nav:true,
+  items:1,
+  autoplay:true
+  
 })
 
 two.owlCarousel({
@@ -70,6 +83,14 @@ $('.increment-btn').click(function add() {
       $(".decrement-btn").attr("disabled", true);
     }
   });
+
+
+  $(".testimonial").hover(function(){
+    $(".owl-prev, .owl-next").css("opacity","1");
+});
+$(".comitement, header").hover(function(){
+    $(".owl-prev, .owl-next").css("opacity","0");
+});
 
    
     
