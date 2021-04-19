@@ -292,7 +292,7 @@ header{
 .testimonial .card{
     background-color: transparent!important;
 }
-.testimonial h5{
+.testimonial h6{
     color: white;
 }
 .testimonial p{
@@ -345,6 +345,28 @@ header{
     padding-left:10px ;
     padding-right:10px ;
  }
+
+ /* to top start */
+ .to-top{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #000;
+	color: #fff;
+	padding: 12px 14px;
+    border-radius: 50%;
+    z-index: 999999999;
+
+}
+.to-top:hover{
+    z-index: 9999999999;
+	background-color: #d7d7d7;
+	color: #000;
+}
+.to-top:hover i{
+  
+	color: #000;
+}
 
 
  
