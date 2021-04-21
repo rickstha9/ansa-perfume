@@ -145,10 +145,10 @@ header{
 
  .main-txt div{
     text-align: center;
-     padding-left: 15px;
+     padding-left: 37px;
      font-family: Lato;
-     letter-spacing: 15px;
-    font-size: 60px;
+     letter-spacing: 11px;
+    font-size: 55px;
 }
 .carousel-caption{
     position: absolute;
