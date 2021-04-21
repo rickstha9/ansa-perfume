@@ -1,3 +1,5 @@
+
+$(document).ready(function(){
 $('.increment-btn').click(function add() {
     var $qtde = $(".counter");
     var a = $qtde.val();
@@ -153,3 +155,4 @@ $('.increment-btn').click(function add() {
       $(".decrement-btn-7").attr("disabled", true);
     }
   });
+});
