@@ -25,6 +25,7 @@ $(document).ready(function(){
   one.owlCarousel({
     loop:true,
     items:1,
+    autoplayTimeout:7000,
     autoplay:true
     
 })
@@ -77,27 +78,6 @@ var offset=200;
 });
 
 
-
-$('.increment-btn').click(function add() {
-    var $qtde = $(".counter");
-    var a = $qtde.val();
-  
-    a++;
-    $(".decrement-btn").attr("disabled", !a);
-    $qtde.val(a);
-  });
-  $(".decrement-btn").attr("disabled", !$(".counter").val());
-  
-  $('.decrement-btn').click(function minusButton() {
-    var $qtde = $(".counter");
-    var b = $qtde.val();
-    if (b >= 1) {
-      b--;
-      $qtde.val(b);
-    } else {
-      $(".decrement-btn").attr("disabled", true);
-    }
-  });
 
 
 

@@ -12,7 +12,7 @@ a{
 }
 
 body{
-    background-image: url(https://ansa-perfume.com.au/wp-content/uploads/2020/12/golden-4.jpg);
+    background-image: url('../image/main-bg.jpg');
     background-color: #dbb40a;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ body{
 /*-------------------- header start---------------------- */
 
 header{
-    background-image: url(https://ansa-perfume.com.au/wp-content/uploads/2020/12/golden-4.jpg);
+    background-image: url('../image/main-bg.jpg');
     
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -129,10 +129,28 @@ header{
     overflow: hidden;
    
 }
+
+.banner .item{
+    position: relative;
+}
+
+
+ .main-txt div{
+     padding-left: 15px;
+     font-family: Lato;
+     letter-spacing: 15px;
+    font-size: 60px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    transform: translateX(0 ,-30%);
+}
 .banner .owl-dots{
     position: relative;
     bottom: 70px;;
 }
+
 /* 
 .owl-dots{
     display: block!important;
@@ -198,7 +216,7 @@ header{
     background-color: transparent!important;
 }
 
-.counter{
+.num-counter{
     width: 13%;
     border: none;
 
@@ -346,6 +364,43 @@ header{
     padding-right:10px ;
  }
 
+ /* footer start */
+ footer{
+     font-family: Lato;
+     color: white;
+    background: #ffb200;
+    padding: 40px 0;
+ }
+ footer ul li {
+     list-style-type: none;
+     margin-bottom: 7px;
+ }
+
+ footer .footer-desc .desc-title{
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 5px;
+ }
+
+ footer .card{
+    background: none!important;
+    border: none!important;
+ }
+ footer .card-body{
+    background: none!important;
+    border: none!important;
+ }
+
+ .copyright{
+     font-family: Lato;
+    background: #413e38;
+    color: #fff;
+ }
+
+ .copyright p{
+    margin: 0;
+}
  /* to top start */
  .to-top{
 	position: fixed;

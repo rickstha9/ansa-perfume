@@ -52,6 +52,14 @@
     .navbar-toggler{
         margin-top: 12px;;
     }
+
+    .main-txt div{
+        padding-left: 55px;
+        margin-left:-30px;
+       font-size: 30px;
+   }
+   
+  
     .trending-items h2{
         font-size: 30px;
         
@@ -71,4 +79,13 @@
         font-size: 15px;
     }
     
+}
+
+
+@media(max-width:600px){
+    .main-txt div{
+        padding-left: 65px;
+        margin-left:-60px;
+       font-size: 15px;
+   }
 }
