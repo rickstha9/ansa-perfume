@@ -134,8 +134,17 @@ header{
     position: relative;
 }
 
+.main-txt{
+
+    background: rgba(0, 0, 0, 0.5);
+    width: auto;
+    
+}
+
+
 
  .main-txt div{
+    text-align: center;
      padding-left: 15px;
      font-family: Lato;
      letter-spacing: 15px;
